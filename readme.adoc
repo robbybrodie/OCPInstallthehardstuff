@@ -4,9 +4,9 @@ For example, you're deploying IBM Cloud Pak or for another piece of software tha
 
 # 1. The most important thing you need to establish when considering an OCP installation.   **Are you an edge case?**
 
-If you are an edge case and you don't know this, failure is almost certain.  
+If you are an edge case and you don't have awareness of this, failure is likley.  
 
-This section of this guide talks about the basic things you need to answer to make the installer work and provides the context as to why before you embark on an install.  Are you an edge case?  There are certain build time selections, that if selected can't easily be walked back, and if you do fall into these edge cases then there is a high liklihood of failure and / or significant rework if incorrect selections are made.  Careful selection based on your requirements is neccessary.
+This section of this guide talks about the basic things that need answering to make the installer work and provides the context as to why before you embark on an install.  Are you an edge case?  There are certain build time selections, that if selected can't easily be walked back, and if you do fall into these edge cases liklihood of failure is high and / or significant rework required if incorrect selections are made.  Careful selection based on your requirements is neccessary.
 
 ## First - a cautionary note about the safe padded room that is the IPI Installer, the Cluster Management website, and the Assisted Installer
 
