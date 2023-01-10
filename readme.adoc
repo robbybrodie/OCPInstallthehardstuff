@@ -34,7 +34,7 @@ what do I. mean by Day 0 installation of OCP? - **I mean the things required to 
 2. Will my installation allow all nodes to access to internet and this won't be changed in future (ie, this is not an airgapped OCP installation)
    - if no then you are an edge case and need to follow the disconnected installation instructions to create an airgapped installation of OCP
    
-## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer?
+## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer and why?
 
 - CIDR block(s)
 - Load Balancers
@@ -45,7 +45,7 @@ what do I. mean by Day 0 installation of OCP? - **I mean the things required to 
 - PXE (optional) or other way to boot an image
 - TFPT (optional or other way to obatin an image
 
-## What's important in this context of installation in a disconnected mode using the UPI bare metal / universal installer?
+## What's important in this context of installation in a disconnected mode using the UPI bare metal / universal installer and why?
 
 - CIDR block(s)
 - Load Balancers
@@ -56,7 +56,7 @@ what do I. mean by Day 0 installation of OCP? - **I mean the things required to 
 - PXE (optional) or other way to boot an image
 - TFPT (optional or other way to obatin an image
 
-## What's important in this context of installation in a disconnected mode using the IPI installer?
+## What's important in this context of installation in a disconnected mode using the IPI installer and why?
 
 - CIDR block(s)
 - Load Balancers
