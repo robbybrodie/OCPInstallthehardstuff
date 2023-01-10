@@ -37,10 +37,13 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 ## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer?
 
 - CIDR block(s)
-- DNS
-- Time (NTP) 
-- Storage
-- DHCP/ Static IPs
+- Load Balancers
+- DNS Server
+- Time Server (NTP)
+- DHCP / Static IPs
+- NFSv4 mount
+- PXE (optional) or other way to boot an image
+- TFPT (optional or other way to obatin an image
 
 ## What's important in this context of installation in a disconnected mode using the UPI bare metal / universal installer?
 
@@ -55,4 +58,11 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 
 ## What's important in this context of installation in a disconnected mode using the IPI installer?
 
-
+- CIDR block(s)
+- Load Balancers
+- DNS Server
+- Time Server (NTP)
+- DHCP / Static IPs
+- NFSv4 mount
+- PXE (optional) or other way to boot an image
+- TFPT (optional or other way to obatin an image
