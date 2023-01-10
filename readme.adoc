@@ -22,7 +22,7 @@ Day 1 and 2 operations of OCP are very different to day zero installation of OCP
 
 Day 1 and 2 operations of OCP are very different to day zero installation of OCP - repeat it one last time for good measure...
 
-what do I. mean by Day 0 installation of OCP? - **I mean the things required to make the basic installation of OCP work.**, we will cover day 1 operations later in this guide and day 2 operations can be foud nat teh following repo <insert day 2 repo link here>
+what do I. mean by Day 0 installation of OCP? - **I mean the things required to make the basic installation of OCP work.**, we will cover day 1 operations later in this guide and day 2 operations can be found nat the following repo <insert day 2 repo link here>
 
 
 ## So, am I an edge case? - THE QUESTIONS YOU NEED TO ASK.
