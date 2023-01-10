@@ -27,9 +27,9 @@ what do I. mean by Day 0 installation of OCP? - **I mean the things required to 
 
 ## So, am I an edge case? - THE QUESTIONS YOU NEED TO ASK to choose Day 0 OCP Installer options and fulfil prerequisties for those options.
 
-1. Is my installation on VMware, Nutanix, AWS, Azure, or RHV?
+1. Is my installation on VMware, Nutanix, AWS, Azure, Azure Stack Hub, or RHV?
    - if no then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal / universal installer must be used.
-   - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, or RHV?
+   - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, Azure Stack Hub, or RHV?
    - if no then then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP using IPI or UPI bare metal / universal installer 
 2. Will my installation allow all nodes to access to internet and this won't be changed in future (ie, this is not an airgapped OCP installation)
    - if no then you are an edge case and need to follow the disconnected installation instructions to create an airgapped installation of OCP
