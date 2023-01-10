@@ -7,13 +7,13 @@ This guide talks about the basic things you need to answer and provides the cont
 
 Why this guide? there are certain build time selections, that if selected can't easily be walked back.  Careful selection based on your requiremetns is neccessarily
 
-## First - a cautionary note about the soft playpen that is the IPI installation, the cluster management website, and the assisted installer
+## First - a cautionary note about the soft padded room that is the IPI installation, the cluster management website, and the assisted installer
 
 Openshift provides a number of installation mechanisms provided to make the cycle of an installation of OCP easy namely the IPI installation and the cluser management website.  These provides an easy mechanism to install OCP as long as you have fulfilled the appropriate pre-reqs.  
 
 ### But
 
-The ease of the install using the custer management website, the IPI installer, assisted installer belies complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installation
+The ease of the install using the custer management website, the IPI installer, assisted installer belies complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installation.
 
 ### And
 
@@ -34,7 +34,7 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
    - if no then then follow the disconnected installation instructions to create an airgapped install.
    
-##What's important in this context and why?
+## What's important in this context and why?
 
 - Networking
 - DNS
