@@ -13,27 +13,31 @@ Openshift provides a number of installation mechanisms provided to make the cycl
 
 ### But
 
-The ease of the install using the custer management website and teh IPI instaler belies a complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installtion
+The ease of the install using the custer management website, the IPI installer, assisted installer belies complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installation
 
 ### And
 
 Day 2 operations are very different to day one installation of OCP - repeat ofter me
 
-Day 2 operations are very different to day one installation of OCP 
+Day 2 operations are very different to day one installation of OCP... 
 
-Day 2 operations are very different to day one installation of OCP 
+Day 2 operations are very different to day one installation of OCP... 
 
-Day 2 operations are very different to day one installation of OCP - repeat it again for good measure...
+Day 2 operations are very different to day one installation of OCP - repeat it one last time for good measure...
 
 ## THE QUESTIONS YOU NEED TO ASK.
 
-1. is my installation on soething other than VMware, Nutanix, AWS, Azure, or RHV?
-2. is my installation requiremetn EVER going to be Airgapped?
-
-Whats important in this context?
+1. Is my installation on VMware, Nutanix, AWS, Azure, or RHV?
+   - if no then then pre-requisite requirements need to be designed in order to install any OCP and the UPI installer must be used.
+   - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, or RHV?
+   - if no then pre-requisite requirements need to be designed in order to install any OCP using IPI.
+2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
+   - if no then then follow the disconnected installation instructions to create an airgapped install.
+   
+##What's important in this context and why?
 
 - Networking
 - DNS
-- Time
+- Time (NTP) 
 - Storage
 - DHCP
