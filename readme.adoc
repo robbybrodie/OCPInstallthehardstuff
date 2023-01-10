@@ -34,7 +34,7 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
    - if no then then follow the disconnected installation instructions to create an airgapped install.
    
-## What's important in this context of installation in a connect the installation using the UPI bare metal installer?
+## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer?
 
 - CIDR block(s)
 - DNS
