@@ -2,7 +2,9 @@
 
 For exmaple, you're deploying IBM Cloud Pak or for another piece of software and you can't use a managed version such as ROSA, ARO or RHOIC.  
 
-# 1. **Are you an edge case?** The most important thing you need to establish when considering an OCP installation is if you are an edge case.  If you are an edge case and you don't know this failure is almost certain.  
+# 1. **Are you an edge case?** The most important thing you need to establish when considering an OCP installation.  
+
+If you are an edge case and you don't know this failure is almost certain.  
 
 What you need to know about making the OCP installers successful in edge case circumstances?
 
