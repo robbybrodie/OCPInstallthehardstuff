@@ -12,7 +12,7 @@ Openshift provides a number of installation mechanisms provided to make the cycl
 
 ### But
 
-The ease of the install using the custer management website, the IPI installer, assisted installer belies complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installation.
+The ease of the install using the cluster management website, the IPI installer, assisted installer belies complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installation.
 
 ### And
 
