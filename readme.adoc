@@ -34,10 +34,25 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
    - if no then then follow the disconnected installation instructions to create an airgapped install.
    
-## What's important in this context and why?
+## What's important in this context of installation in a connect the installation using the UPI bare metal installer?
 
-- Networking
+- CIDR block(s)
 - DNS
 - Time (NTP) 
 - Storage
-- DHCP
+- DHCP/ Static IPs
+
+## What's important in this context of installation in a disconnected mode using the UPI bare metal / universal installer?
+
+- CIDR block(s)
+- Load Balancers
+- DNS Server
+- Time Server (NTP)
+- DHCP / Static IPs
+- NFSv4 mount
+- PXE (optional) or other way to boot an image
+- TFPT (optional or other way to obatin an image
+
+## What's important in this context of installation in a disconnected mode using the IPI installer?
+
+
