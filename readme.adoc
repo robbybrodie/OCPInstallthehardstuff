@@ -1,4 +1,4 @@
-# So you've got to install OCP?
+# So you've got to install OCP? - Stuff you need to know about making the installer work for you in difficult circumstances
 
 Maybe for an IBM Cloud Pak? or for another piece of software? 
 and you can't use a managed version such as ROSA, ARO or RHOIC.  
