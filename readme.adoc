@@ -1,6 +1,6 @@
 # So you've got to install OCP? - 
 
-# 1. **Are you an edge case?** Stuff you need to know about making the installer work for you in edge case circumstances.
+# 1. **Are you an edge case?** What you need to know about making the OCP installers successful in edge case circumstances.
 
 For exmaple, you're deploying IBM Cloud Pak or for another piece of software and you can't use a managed version such as ROSA, ARO or RHOIC.  
 
