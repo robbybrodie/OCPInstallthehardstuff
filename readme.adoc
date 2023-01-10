@@ -28,7 +28,7 @@ Day 2 operations are very different to day one installation of OCP - repeat it o
 ## THE QUESTIONS YOU NEED TO ASK.
 
 1. Is my installation on VMware, Nutanix, AWS, Azure, or RHV?
-   - if no then then pre-requisite requirements need to be designed in order to install any OCP and the UPI installer must be used.
+   - if no then then pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal installer must be used.
    - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, or RHV?
    - if no then pre-requisite requirements need to be designed in order to install any OCP using IPI.
 2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
