@@ -1,6 +1,6 @@
 # So you've got to install OCP...  Now what? - 
 
-For example, you're deploying IBM Cloud Pak or for another piece of software and you can't use a managed version such as ROSA, ARO or RHOIC.  
+For example, you're deploying IBM Cloud Pak or for another piece of software that requires OCP as an underlying platform and you can't use a managed OCP such as ROSA, ARO or RHOIC.  
 
 # 1. **Are you an edge case?** The most important thing you need to establish when considering an OCP installation.  
 
