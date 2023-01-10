@@ -15,6 +15,16 @@ Openshift provides a number of installation mechanisms provided to make the cycl
 
 The ease of the install using the custer management website and teh IPI instaler belies a complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installtion
 
+### And
+
+Day 2 operations are very different to day one installation of OCP - repeat ofter me
+
+Day 2 operations are very different to day one installation of OCP 
+
+Day 2 operations are very different to day one installation of OCP 
+
+Day 2 operations are very different to day one installation of OCP - repeat it again for good measure...
+
 ## THE QUESTIONS YOU NEED TO ASK.
 
 1. is my installation on soething other than VMware, Nutanix, AWS, Azure, or RHV?
