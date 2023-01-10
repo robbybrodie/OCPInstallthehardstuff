@@ -1,8 +1,10 @@
 # So you've got to install OCP? - 
 
-# 1. **Are you an edge case?** What you need to know about making the OCP installers successful in edge case circumstances.
-
 For exmaple, you're deploying IBM Cloud Pak or for another piece of software and you can't use a managed version such as ROSA, ARO or RHOIC.  
+
+# 1. **Are you an edge case?** The most important thing you need to establish when considering an OCP installation is if you are an edge case.  If you are an edge case and you don't know this failure is almost certain.  
+
+What you need to know about making the OCP installers successful in edge case circumstances?
 
 This section of this guide talks about the basic things you need to answer to make the installer work and provides the context as to why before you embark on an install.  Are you an edge case?  There are certain build time selections, that if selected can't easily be walked back, and if you do fall into these edge cases then there is a high liklihood of failure and / or significant rework if incorrect selections are made.  Careful selection based on your requirements is neccessary.
 
@@ -27,14 +29,14 @@ Day 1 and 2 operations of OCP are very different to day zero installation of OCP
 what do I. mean by Day 0 installation of OCP? - **I mean the things required to make the basic installation of OCP work.**
 
 
-## THE QUESTIONS YOU NEED TO ASK.
+## Soft am I an edge case? - THE QUESTIONS YOU NEED TO ASK.
 
 1. Is my installation on VMware, Nutanix, AWS, Azure, or RHV?
-   - if no then then pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal installer must be used.
+   - if no then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal installer must be used.
    - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, or RHV?
-   - if no then pre-requisite requirements need to be designed in order to install any OCP using IPI.
+   - if no then then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP using IPI.
 2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
-   - if no then then follow the disconnected installation instructions to create an airgapped install.
+   - if no thenthen you are an edge caseand need to follow the disconnected installation instructions to create an airgapped installation of OCP
    
 ## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer?
 
