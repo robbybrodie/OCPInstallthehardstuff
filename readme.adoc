@@ -7,7 +7,7 @@ This guide talks about the basic things you need to answer and provides the cont
 
 Why this guide? there are certain build time selections, that if selected can't easily be walked back.  Careful selection based on your requiremetns is neccessarily
 
-## First - a cautionary note about the soft padded room that is the IPI installation, the cluster management website, and the assisted installer
+## First - a cautionary note about the safe padded room that is the IPI installation, the cluster management website, and the assisted installer
 
 Openshift provides a number of installation mechanisms provided to make the cycle of an installation of OCP easy namely the IPI installation and the cluser management website.  These provides an easy mechanism to install OCP as long as you have fulfilled the appropriate pre-reqs.  
 
