@@ -2,7 +2,7 @@
 
 For example, you're deploying IBM Cloud Pak or for another piece of software that requires OCP as an underlying platform and you can't use a managed OCP such as ROSA, ARO or RHOIC.  
 
-# 1. The most important thing you need to establish when considering an OCP installation.  **Are you an edge case?**
+# 1. The most important thing you need to establish when considering an OCP installation.   **Are you an edge case?**
 
 If you are an edge case and you don't know this, failure is almost certain.  
 
