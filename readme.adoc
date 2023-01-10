@@ -20,23 +20,19 @@ The ease of the install using the cluster management website, the IPI installer 
 
 Day 1 and 2 operations of OCP are very different to day zero installation of OCP - repeat ofter me
 
-Day 1 and 2 operations of OCP are very different to day zero installation of OCP... 
-
-Day 1 and 2 operations of OCP are very different to day zero installation of OCP... 
-
 Day 1 and 2 operations of OCP are very different to day zero installation of OCP - repeat it one last time for good measure...
 
-what do I. mean by Day 0 installation of OCP? - **I mean the things required to make the basic installation of OCP work.**
+what do I. mean by Day 0 installation of OCP? - **I mean the things required to make the basic installation of OCP work.**, we will cover day 1 operations later in this guide and day 2 operations can be foud nat teh following repo <insert day 2 repo link here>
 
 
-## Soft am I an edge case? - THE QUESTIONS YOU NEED TO ASK.
+## So, am I an edge case? - THE QUESTIONS YOU NEED TO ASK.
 
 1. Is my installation on VMware, Nutanix, AWS, Azure, or RHV?
-   - if no then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal installer must be used.
+   - if no then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP and the UPI bare metal / universal installer must be used.
    - if yes, then do I have resource creation rights on my VMware, Nutanix, AWS, Azure, or RHV?
-   - if no then then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP using IPI.
-2. Will my installation allow all nodes to access to internet and this won't be change (ie, this is not an airgapped OCP installation)
-   - if no thenthen you are an edge caseand need to follow the disconnected installation instructions to create an airgapped installation of OCP
+   - if no then then you are an edge case and pre-requisite requirements need to be designed in order to install any OCP using IPI or UPI bare metal / universal installer 
+2. Will my installation allow all nodes to access to internet and this won't be changed in future (ie, this is not an airgapped OCP installation)
+   - if no then you are an edge case and need to follow the disconnected installation instructions to create an airgapped installation of OCP
    
 ## What's important in this context of installation in an internet connected install using the UPI bare metal / universal installer?
 
