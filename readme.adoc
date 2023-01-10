@@ -1,11 +1,11 @@
 # So you've got to install OCP?
 
-Maybe for an IBM Cloud Pak? or for another peice of software? 
+Maybe for an IBM Cloud Pak? or for another piece of software? 
 and you can't use a managed version such as ROSA, ARO or RHOIC.  
 
 This guide talks about the basic things you need to answer and provides the context as to why before you embark on an install.
 
-Why this guide? there are certain build time selections, that if selected can't easily be walked back.  Careful selection based on your requiremetns is neccessarily
+Why this guide? there are certain build time selections, that if selected can't easily be walked back.  Careful selection based on your requirements is neccessarily
 
 ## First - a cautionary note about the safe padded room that is the IPI installation, the cluster management website, and the assisted installer
 
