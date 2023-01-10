@@ -1,7 +1,23 @@
-#So you've got to install OCP?
+# So you've got to install OCP?
 
-Maybe for an IBM Cloud Pak or for another peice of software and you can't for some reason use a managed version such as ROSA, ARO or RHOIC.  This guide tlaks about teh basic things you need to answer and provides teh conaext as to why before you embark on an install.
-Note: there are certain build time ideas, that if selected can't easily be walked back later.  SO careful selection based on your requiremetns is neccessarily
+Maybe for an IBM Cloud Pak or for another peice of software, 
+You can't for some reason use a managed version such as ROSA, ARO or RHOIC.  
 
+This guide tlaks about teh basic things you need to answer and provides the context as to why before you embark on an install.
+
+Why this guide? there are certain build time slections, that if selected can't easily be walked back.  Careful selection based on your requiremetns is neccessarily
+
+## First - a cautionary note about the soft playpen that is the IPI installation and the cluser management website
+
+Openshift provides a number of installation mechanisms provided to make the cycle of an installation of OCP easy namely the IPI installation and the cluser management website.  These provides an easy mechanism to install OCP as long as you have fulfilled the appropriate pre-reqs.  
+
+### But
+
+The ease of the install using the custer management website and teh IPI instaler belies a complexity that becomes apparent when you step outside of a standard internet connected installation on VMware, Nutanix, AWS, Azure, or RHV installtion
+
+## THE QUESTIONS YOU NEED TO ASK.
+
+1. is my installation on soething other than VMware, Nutanix, AWS, Azure, or RHV?
+2. is my installation requiremetn EVER going to be Airgapped?
 
 
